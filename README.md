@@ -54,8 +54,8 @@ A0 - analog read pin<p>
 D1 - Digital read/write<p>
   
 <h2>4. Software</h2>  
-To interact with Arduino products, you need to use the Arduino programming environment. It can be downloaded for free from here:<br>
-https://www.arduino.cc/en/Main/Software<P>
+To interact with Arduino products, you need to use the Arduino programming environment. It can be downloaded for free from
+<a href="https://www.arduino.cc/en/Main/Software" target="_blank">here<a> <P>
 
 <img src="images\selectGemma.png">
 
