@@ -1,4 +1,4 @@
-Wearables Workshop
+<b>Wearables Workshop</b>
 
 Outline
 1. basic electronics
