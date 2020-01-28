@@ -57,6 +57,21 @@ D1 - Digital read/write<p>
 To interact with Arduino products, you need to use the Arduino programming environment. It can be downloaded for free from
 <a href="https://www.arduino.cc/en/Main/Software" target="_blank">here<a> <P>
 
+Select the download that matches your operating system (Mac or Windows).
+
+<h3>Anatomy of a patch</h3>
+A patch is broken into two parts - setup() and loop().<br>
+Setup runs once, and is where variables are established and libraries for specific sensors. Loop is where you put code that will run continously, which is the active part of your program.
+
+<img src="images\blankpatch.png"> <br>
+
+To get started, you can find many examples under <b>File > Examples</b>. Here you can load basic code for a variety of functions. It is very common to load example code and copy/paste it in part or whole into your own program.<p>
+
+
+https://www.arduino.cc/reference/en/
+
+
+<h3>Upload patch</h3>
 <img src="images\selectGemma.png">
 
 <h2>5. Putting it together</h2>  
