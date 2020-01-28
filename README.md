@@ -1,4 +1,4 @@
-<H1>Wearables Workshop</H1>
+<H1>Wearables Workshop w/Gemma</H1>
 
 <h2>Outline</h2>
 1. The flow <br>
@@ -32,7 +32,8 @@ AC alternating current/DC direct current
 Most devices DC <br>
 Transformer changes source V and A t <br>
 Look at phone power supply- Input/Output <br>
-Power Sources
+<img src="images\powerAdp.png"> <br>
+
 
 Batteries <br>
 List V and capacity (Ah) amp hours
@@ -42,7 +43,7 @@ List V and capacity (Ah) amp hours
 What is a Circuit? Basic loop of energy flow from (+) to Ground
 Devices inside the circuit use energy to do work
 
-<h2>Power</h2>
+<h3>Power</h3>
 
 
 Anatomy of an Arduino <p>
