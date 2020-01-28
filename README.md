@@ -1,7 +1,7 @@
 <H1>Wearables Workshop</H1>
 
 <h2>Outline</h2>
-1. The flow
+1. The flow<br>
 2. Elecctricity
 3. Electronics/Hardware
 4. Software
