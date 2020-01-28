@@ -53,6 +53,9 @@ D1 - Digital read/write<p>
   
 <h2>4. Software</h2>  
 
+
+<img src="images\selectgemma.png">
+
 <h2>5. Putting it together</h2>  
 
 <h2>Resources</h2>
