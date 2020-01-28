@@ -9,6 +9,8 @@
 
 <h2>1. The Flow</h2>
 
+Environment/body -> Sensor -> microcontroller -> software/process/circuit -> Action
+
 <h2>2. Electricity</h2>
 
 <h3>Basic electrical formula or Ohm's Law</h3>
@@ -52,7 +54,8 @@ A0 - analog read pin<p>
 D1 - Digital read/write<p>
   
 <h2>4. Software</h2>  
-
+To interact with Arduino products, you need to use the Arduino programming environment. It can be downloaded for free from here:<br>
+https://www.arduino.cc/en/Main/Software<P>
 
 <img src="images\selectGemma.png">
 
