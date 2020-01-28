@@ -1,11 +1,11 @@
 <H1>Wearables Workshop</H1>
 
 <h2>Outline</h2>
-1. The flow<br>
-2. Elecctricity
-3. Electronics/Hardware
-4. Software
-5. Putting it together
+1. The flow <br>
+2. Elecctricity <br>
+3. Electronics/Hardware <br>
+4. Software <br>
+5. Putting it together <br>
 
 <h2>1. The Flow</h2>
 
@@ -13,11 +13,11 @@
 
 <h3>Basic electrical formula or Ohm's Law</h3>
 V=IR 
-Voltage = (resistance)(current)
-Volts = ohms x amperage(amps)
-Potential energry = (amount of energy used or restriction of energy)(force of the energy)
+Voltage = (resistance)(current) <br>
+Volts = ohms x amperage(amps) <br>
+Potential energry = (amount of energy used or restriction of energy)(force of the energy)<p>
 
-Water pipe example
+Water pipe example <br>
 height of  = (pipe diameter)(force of water)
 
 
@@ -27,12 +27,12 @@ Most wall outlets in a home are 120V AC
 
 AC alternating current/DC direct current
 
-Most devices DC
-Transformer changes source V and A t
-Look at phone power supply- Input/Output
+Most devices DC <br>
+Transformer changes source V and A t <br>
+Look at phone power supply- Input/Output <br>
 Power Sources
 
-Batteries
+Batteries <br>
 List V and capacity (Ah) amp hours
 
 <h2>3. Electronics/Hardware Basics</h2>
