@@ -9,7 +9,10 @@
 
 <h2>1. The Flow</h2>
 
-Environment/body -> Sensor -> microcontroller -> software/process/circuit -> Action
+Environment/body -> Sensor -> microcontroller -> software/process/circuit -> Action<p>
+Think of these devices as translators, collecting a measurement of something in the physical world (light, temperature, body position) and using a sensor and code to translate that measurement into something else.
+  
+  *Max/MSP example*
 
 <h2>2. Electricity</h2>
 
@@ -20,22 +23,23 @@ Volts = ohms x amperage(amps) <br>
 Potential energry = (amount of energy used or restriction of energy)(force of the energy)<p>
 
 Water pipe example <br>
-height of  = (pipe diameter)(force of water)
-
+height of  = (pipe diameter)(force of water)<br>
 
 <h3>Common Voltages</h3>
-Most wall outlets in a home are 120V AC
-
-
-AC alternating current/DC direct current
-
+Most wall outlets in a home are 120V AC (in North America).<br>
+AC alternating current/DC direct current<br>
 Most devices DC <br>
-Transformer changes source V and A t <br>
+
+<b>Looking at an LED</b>
+A red LED uses ~2.2V and 20mA<br>
+
+*What happens if we plugged that into a wall socket?*
+
+Transformer is the device that changes source V and A fromt the supply to the meet the needs of the device. <br>
 Look at phone power supply- Input/Output <br>
 <img src="images\powerAdp.png"> <br>
 
-
-Batteries <br>
+<h3>Batteries</h3>
 List V and capacity (Ah) amp hours
 
 <h2>3. Electronics/Hardware Basics</h2>
