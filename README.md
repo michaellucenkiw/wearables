@@ -12,7 +12,7 @@
 Environment/body -> Sensor -> microcontroller -> software/process/circuit -> Action<p>
 Think of these devices as translators, collecting a measurement of something in the physical world (light, temperature, body position) and using a sensor and code to translate that measurement into something else.
   
-  *Max/MSP example*
+  <b>*Think of the Max/MSP example of flow and transformation of data*</b>
 
 <h2>2. Electricity</h2>
 
@@ -33,7 +33,7 @@ Most devices DC <p>
 <b>Looking at an LED</b><br>
 Many simple LEDs use ~2.2V-3.3V and ~20mA<br>
 
-*What happens if we plugged the LED into a wall socket?*
+<b>*What happens if we plugged the LED into a wall socket?*</b>
 
 Very few (if any) household devices uses 120V. A transformer is the device that changes source V and A fromt the supply to the meet the needs of the device. Some devices have this built in, other have it external to the device.<br>
 Look at phone power supply- Input/Output <br>
@@ -49,7 +49,7 @@ Batteries are another way to supply electricity to circuits or electrical compon
 
 Batteries come in many voltages and capacities. Many have been developed with voltage specific to small devices used in wearables.
 
-*check the battery in your kit. What is the Voltage? What if we connect the LED into this battery?* <p>
+<b>*check the battery in your kit. What is the Voltage? What if we connect the LED into this battery?* </b><p>
   
 We made a circuit!<p>
   
@@ -60,27 +60,25 @@ This is not very efficient or useful circuit format to use, especially for perfo
 
 Microcontollers! This term refers to a growing class of programable device that supplies power in a controlled and programable way to electrical components. As you have seen, not all wearables or circuits need a controller, but they make automation and more complex and exacting control possible.<p>
   
-We are using the Arduino Gemma.
+We are using the Arduino Gemma, a small controller thatcan be easily sewn onto clothing or textiles.<p>
+<img src="images\GemmaM0.jpg"> <br>
 
-<b>*which way does the LED go on the battery?*</b>
+
+<b>*which way does the LED go on the battery?*</b><p>
 
 What is a Circuit? Basic loop of energy flow from (+) to Ground
 Devices inside the circuit use energy to do work.<br>
 Most electrical components are direction specific (polerized).<br>
-Positive to positive, negative to negative.<br>
+When connecting components, positive to positive, negative to negative.<br>
 
-
+<img src="images\basicCircuit.png"> <br>
 (photo from https://startingelectronics.org/)
 
-<h3>Power</h3>
+<h3> Anatomy of the Gemma </h3>
 
-
-Anatomy of an Arduino <p>
-5V - 5 volt power supply<p>
-3.3V - 3.3 volt power supply<p>
-Vin - input for electricity<p>
-GND - ground<p>
-A0 - analog read pin<p>
+3.3V - 3.3 volt power supply<br>
+GND - ground<br>
+A0 - analog read pin<br>
 D1 - Digital read/write<p>
   
 <h2>4. Software</h2>  
