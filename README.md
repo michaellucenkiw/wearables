@@ -74,6 +74,9 @@ When connecting components, positive to positive, negative to negative.<br>
 <img src="images\basicCircuit.png"> <br>
 (photo from https://startingelectronics.org/)
 
+
+<img src="images\LED.png"> <br>
+
 <h3> Anatomy of the Gemma </h3>
 
 3.3V - 3.3 volt power supply<br>
@@ -106,10 +109,10 @@ https://www.arduino.cc/reference/en/
 
 <h2>Resources</h2>
 
-https://makecode.adafruit.com/<p>
-https://www.youtube.com/watch?v=nL34zDTPkcs<p>
-https://learn.sparkfun.com/tutorials/sewing-with-conductive-thread<p>
-https://learn.sparkfun.com/tutorials/how-to-read-a-schematic<p>
-https://learn.sparkfun.com/tutorials/ir-control-kit-hookup-guide<p>
-https://learn.sparkfun.com/tutorials/ir-communication/all<p>
+https://makecode.adafruit.com/<br>
+https://www.youtube.com/watch?v=nL34zDTPkcs<br>
+https://learn.sparkfun.com/tutorials/sewing-with-conductive-thread<br>
+https://learn.sparkfun.com/tutorials/how-to-read-a-schematic<br>
+https://learn.sparkfun.com/tutorials/ir-control-kit-hookup-guide<br>
+https://learn.sparkfun.com/tutorials/ir-communication/all<br>
 https://learn.adafruit.com/trinket-gemma-ir-remote-control/using-ir-codes-1
