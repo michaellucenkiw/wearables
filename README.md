@@ -28,24 +28,49 @@ height of  = (pipe diameter)(force of water)<br>
 <h3>Common Voltages</h3>
 Most wall outlets in a home are 120V AC (in North America).<br>
 AC alternating current/DC direct current<br>
-Most devices DC <br>
+Most devices DC <p>
 
-<b>Looking at an LED</b>
-A red LED uses ~2.2V and 20mA<br>
+<b>Looking at an LED</b><br>
+Many simple LEDs use ~2.2V-3.3V and ~20mA<br>
 
-*What happens if we plugged that into a wall socket?*
+*What happens if we plugged the LED into a wall socket?*
 
-Transformer is the device that changes source V and A fromt the supply to the meet the needs of the device. <br>
+Very few (if any) household devices uses 120V. A transformer is the device that changes source V and A fromt the supply to the meet the needs of the device. Some devices have this built in, other have it external to the device.<br>
 Look at phone power supply- Input/Output <br>
 <img src="images\powerAdp.png"> <br>
 
+<b>*What happens if we plugged the LED into this transformer?*</b>
+
 <h3>Batteries</h3>
-List V and capacity (Ah) amp hours
+
+Batteries are another way to supply electricity to circuits or electrical components. Common household batteries are AA and 9V battery. Batteries often list the voltage and capacity (Ah) amp hours. AA batteries are ~1.5V and 9V are 9V.<br>
+
+<b>*What happens if we plugged the LED into one of these batteries?*</b> <br>
+
+Batteries come in many voltages and capacities. Many have been developed with voltage specific to small devices used in wearables.
+
+*check the battery in your kit. What is the Voltage? What if we connect the LED into this battery?* <p>
+  
+We made a circuit!<p>
+  
+This is not very efficient or useful circuit format to use, especially for perfomance. How do we make this more complex and useful?<p>
+
 
 <h2>3. Electronics/Hardware Basics</h2>
 
+Microcontollers! This term refers to a growing class of programable device that supplies power in a controlled and programable way to electrical components. As you have seen, not all wearables or circuits need a controller, but they make automation and more complex and exacting control possible.<p>
+  
+We are using the Arduino Gemma.
+
+<b>*which way does the LED go on the battery?*</b>
+
 What is a Circuit? Basic loop of energy flow from (+) to Ground
-Devices inside the circuit use energy to do work
+Devices inside the circuit use energy to do work.<br>
+Most electrical components are direction specific (polerized).<br>
+Positive to positive, negative to negative.<br>
+
+
+(photo from https://startingelectronics.org/)
 
 <h3>Power</h3>
 
