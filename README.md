@@ -12,7 +12,9 @@
 Environment/body -> Sensor -> microcontroller -> software/process/circuit -> Action<p>
 Think of these devices as translators, collecting a measurement of something in the physical world (light, temperature, body position) and using a sensor and code to translate that measurement into something else.
   
-  <b>*Think of the Max/MSP example of flow and transformation of data*</b>
+    <b>*Think of the Max/MSP example of flow and transformation of data*</b>
+  
+We will facilitate this translation using a flow of electricity.
 
 <h2>2. Electricity</h2>
 
@@ -27,29 +29,32 @@ height of  = (pipe diameter)(force of water)<br>
 
 <h3>Common Voltages</h3>
 Most wall outlets in a home are 120V AC (in North America).<br>
-AC alternating current/DC direct current<br>
-Most devices DC <p>
+AC (alternating current)/DC (direct current), thoufh most devices use DC <br>
 
 <b>Looking at an LED</b><br>
+We will be looking at how to harness electricity and the Gemma to control and LED.<br>
 Many simple LEDs use ~2.2V-3.3V and ~20mA<br>
 
-<b>*What happens if we plugged the LED into a wall socket?*</b>
+     <b>*What happens if we plugged the LED into a wall socket?*</b>
 
 Very few (if any) household devices uses 120V. A transformer is the device that changes source V and A fromt the supply to the meet the needs of the device. Some devices have this built in, other have it external to the device.<br>
-Look at phone power supply- Input/Output <br>
+Look at phone power supply- Input/Output. The white cube (apple) is essentially a transformer that changers the 120V to 5V which your phone uses. Below is an the back of a generic charger/transformer.<br>
 <img src="images\powerAdp.png"> <br>
+Notice the input and output values.
 
-<b>*What happens if we plugged the LED into this transformer?*</b>
+    <b>*What happens if we plugged the LED into this transformer?*</b>
 
 <h3>Batteries</h3>
 
 Batteries are another way to supply electricity to circuits or electrical components. Common household batteries are AA and 9V battery. Batteries often list the voltage and capacity (Ah) amp hours. AA batteries are ~1.5V and 9V are 9V.<br>
 
-<b>*What happens if we plugged the LED into one of these batteries?*</b> <br>
+    <b>*What happens if we plugged the LED into one of these batteries?*</b> <br>
 
 Batteries come in many voltages and capacities. Many have been developed with voltage specific to small devices used in wearables.
 
-<b>*check the battery in your kit. What is the Voltage? What if we connect the LED into this battery?* </b><p>
+    <b>*check the battery in your kit. What is the Voltage? What if we connect the LED into this battery?* </b><p>
+    
+Connect the leads of the LED to the battery! If it doesn;t work, flip the LED around.
   
 We made a circuit!<p>
   
