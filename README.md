@@ -125,21 +125,21 @@ Go to <b> Tools > Boards > Board Manager...</b>. One the box is open search for:
       Adafruit SAMD Boards
 Install the most recent version.
 
-<h3> Example 1 - Blink <h3>
+<h3> Example 1 - Blink </h3>
 This example will allow you to turn an LED on and off for set times.
 
-Download the code from <a href="Examples\01 Blink" target="_blank">here<a>
+Download the code from <a href="Gemma M0 Example Codes\01 Blink" target="_blank">here<a>
   
  
-<h3> Example 2 - Capacitive Touch <h3>
+<h3> Example 2 - Capacitive Touch </h3>
 This code will allow you to use an condutive object (skin, most metals, etc) into a button that turns an LED on and off  
   
-Download the code from <a href="Examples\02 Capacitive Touch" target="_blank">here<a>
+Download the code from <a href="Gemma M0 Example Code\02 Capacitive Touch" target="_blank">here<a>
   
-<h3> Example 3 - Serial Communication <h3>
+<h3> Example 3 - Serial Communication </h3>
 This code will allow you to use a knob or slidder to control objects in Max/MSP.  
   
-Download the code from <a href="Examples\03 Serial Read" target="_blank">here<a>
+Download the code from <a href="Gemma M0 Example Code\03 Serial Read" target="_blank">here<a>
   
 
 ////
