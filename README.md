@@ -102,7 +102,11 @@ Setup runs once, and is where variables are established and libraries for specif
 <img src="images\blankpatch.png"> <br>
 
 To get started, you can find many examples under <b>File > Examples</b>. Here you can load basic code for a variety of functions. It is very common to load example code and copy/paste it in part or whole into your own program.<p>
-
+  
+  
+      https://adafruit.github.io/arduino-board-index/package_adafruit_index.json
+ <br>
+<img src="images\locate.png"> <br>
 
 https://www.arduino.cc/reference/en/
 
