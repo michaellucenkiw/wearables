@@ -12,7 +12,7 @@
 Environment/body -> Sensor -> microcontroller -> software/process/circuit -> Action<p>
 Think of these devices as translators, collecting a measurement of something in the physical world (light, temperature, body position) and using a sensor and code to translate that measurement into something else.
   
-    <b>*Think of the Max/MSP example of flow and transformation of data*</b>
+    *Think of the Max/MSP example of flow and transformation of data*
   
 We will facilitate this translation using a flow of electricity.
 
@@ -35,14 +35,14 @@ AC (alternating current)/DC (direct current), thoufh most devices use DC <br>
 We will be looking at how to harness electricity and the Gemma to control and LED.<br>
 Many simple LEDs use ~2.2V-3.3V and ~20mA<br>
 
-     <b>*What happens if we plugged the LED into a wall socket?*</b>
+     *What happens if we plugged the LED into a wall socket?*
 
 Very few (if any) household devices uses 120V. A transformer is the device that changes source V and A fromt the supply to the meet the needs of the device. Some devices have this built in, other have it external to the device.<br>
 Look at phone power supply- Input/Output. The white cube (apple) is essentially a transformer that changers the 120V to 5V which your phone uses. Below is an the back of a generic charger/transformer.<br>
 <img src="images\powerAdp.png"> <br>
 Notice the input and output values.
 
-    <b>*What happens if we plugged the LED into this transformer?*</b>
+    *What happens if we plugged the LED into this transformer?*
 
 <h3>Batteries</h3>
 
@@ -52,7 +52,8 @@ Batteries are another way to supply electricity to circuits or electrical compon
 
 Batteries come in many voltages and capacities. Many have been developed with voltage specific to small devices used in wearables.
 
-    <b>*check the battery in your kit. What is the Voltage? What if we connect the LED into this battery?* </b><p>
+    *check the battery in your kit. What is the Voltage? What if we connect the LED into this battery?* 
+  <p>
     
 Connect the leads of the LED to the battery! If it doesn;t work, flip the LED around.
   
@@ -103,14 +104,45 @@ Setup runs once, and is where variables are established and libraries for specif
 
 To get started, you can find many examples under <b>File > Examples</b>. Here you can load basic code for a variety of functions. It is very common to load example code and copy/paste it in part or whole into your own program.<p>
   
-  
-      https://adafruit.github.io/arduino-board-index/package_adafruit_index.json
- <br>
+To add more of your own code, you can reference https://www.arduino.cc/reference/en/ to see how to incorperate the various commands available to you.
+
+Navigate to <b> Sketch > Include Library > Manage Libraries... </b> and search for and install:
+
+      Adafruit Free Touch
+ 
+This will allow you to incoperate additional code information into your programs. 
+ 
+You need to install some files to allow the Arduino program to recognize hardware, in this case, Adafruit's Gemma M0. To do this we must give the Arduino program a location to find this information. Go to <b> Arduino > Prefrences</b><br>
 <img src="images\locate.png"> <br>
 
-https://www.arduino.cc/reference/en/
+Add this address to the "Additional Boards Manager" box.
 
+      https://adafruit.github.io/arduino-board-index/package_adafruit_index.json
+ <br>
 
+Go to <b> Tools > Boards > Board Manager...</b>. One the box is open search for:
+
+      Adafruit SAMD Boards
+Install the most recent version.
+
+<h3> Example 1 - Blink <h3>
+This example will allow you to turn an LED on and off for set times.
+
+Download the code from <a href="Examples\01 Blink" target="_blank">here<a>
+  
+ 
+<h3> Example 2 - Capacitive Touch <h3>
+This code will allow you to use an condutive object (skin, most metals, etc) into a button that turns an LED on and off  
+  
+Download the code from <a href="Examples\02 Capacitive Touch" target="_blank">here<a>
+  
+<h3> Example 3 - Serial Communication <h3>
+This code will allow you to use a knob or slidder to control objects in Max/MSP.  
+  
+Download the code from <a href="Examples\03 Serial Read" target="_blank">here<a>
+  
+
+////
 <h3>Upload patch</h3>
 <img src="images\selectGemma.png">
 
