@@ -215,13 +215,15 @@ If everything is connected correctly, you will get some feedback on the bottom o
   
 The Gemma does not need to be connected to your computer to run, only a power source such as a battery (the USB port also acts as a power source). The Gemma will not loose the sketch you uploaded once it is turned off. Try out the different sketches and see which one works best for you!
 
+If you would rather code in a more visual formate, feel free to try out the online coding envrionment, <a href="https://makecode.adafruit.com/" target="_blank">MakeCode</a>. I will not be covering MakeCode in this workshop.
+
 <h2>5. Putting it together</h2>  
 
 Take a deep breath, we covered a lot of groung! Now that we have a powered Gemma, running a program with components connected, we can intigrate this into our projects. Wire can be replaced with conductive thread so that the project can truly become wearable. Imagine how you might be able to use this as a tool to extend your body and facilitate interactivity.
 
 <h2>Resources</h2>
 
-https://makecode.adafruit.com/<br>
+https://learn.adafruit.com/adafruit-gemma-m0/overview<br>
 https://www.youtube.com/watch?v=nL34zDTPkcs<br>
 https://learn.sparkfun.com/tutorials/sewing-with-conductive-thread<br>
 https://learn.sparkfun.com/tutorials/how-to-read-a-schematic<br>
