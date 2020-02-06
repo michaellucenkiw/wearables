@@ -192,7 +192,7 @@ Included in the comments are instructions for how to connect each component to t
 <h3> Example 1 - Blink </h3>
 This example will allow you to turn an LED on and off for set times.
 
-Download the code from <a href="Gemma M0 Example Codes\01 Blink" target="_blank">here<a>
+Download the code from <a href="https://github.com/michaellucenkiw/wearables/tree/master/Gemma%20M0%20Example%20Code/01%20Blink/Blink_M0" target="_blank">here<a>
   
  
 <h3> Example 2 - Capacitive Touch </h3>
