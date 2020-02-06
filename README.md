@@ -1,5 +1,7 @@
 <H1>Wearables Workshop w/Gemma</H1>
 
+The Gemma M0 is a small, simple electronic device that can be programmed a variety of ways to perform a desired function. Gemma in particular has been designed to be easily sewn onto textiles making it an excellent platform for wearable technology. The power of this technology is that it allows us to transform a movement or condition into some corresponding action such as turning on an LED, sending a command to a software or playing a sound. The following is a basic tutorial on how to interact with a Gemma M0 to create 3 basic functions.
+
 <h2>Outline</h2>
 1. The flow <br>
 2. Elecctricity <br>
@@ -8,88 +10,123 @@
 5. Putting it together <br>
 
 <h2>1. The Flow</h2>
+How do we incorperate a Gemma into an artwork? A good place to start is to understand how information passes through the system as a whole and what story you want to tell through that process <br>
 
-Environment/body -> Sensor -> microcontroller -> software/process/circuit -> Action<p>
+Environment/body -> Sensor -> microcontroller -> software/process/circuit -> Action/Output<p>
 Think of these devices as translators, collecting a measurement of something in the physical world (light, temperature, body position) and using a sensor and code to translate that measurement into something else.
   
     *Think of the Max/MSP example of flow and transformation of data*
   
-We will facilitate this translation using a flow of electricity.
+We will facilitate this translation using a flow of electricity in and out of the Gemma and through programmed code inside the Gemma.
 
 <h2>2. Electricity</h2>
+This is an extremely brief overview of some key electrical concepts to provide some context for working safely with the Gemma. Electricity has potential to cause harm or even death, but the amount of energy utilized in the Gemma is so small, that its more likely that a compomnet would be damanged than a body part. That being said, it still is required to interact with a wall socket which does contain a dangerious potential of electricty.
 
 <h3>Basic electrical formula or Ohm's Law</h3>
-V=IR 
-Voltage = (resistance)(current) <br>
-Volts = ohms x amperage(amps) <br>
-Potential energry = (amount of energy used or restriction of energy)(force of the energy)<p>
+Ohms Law is the most fundimental formula used in basic electronics. You may not have to perform any calculations with it, but you will interact with all the elements the formula references.<br>
+      
+      V=IR
+ -OR-
+ 
+    Voltage = (resistance)(current)
+-OR--
 
-Water pipe example <br>
+    Potential energry = (amount of energy used or restriction of energy)(force of the energy)
+    
+You can also think about relationship between these variables in terms of water moving through pipes. <br>
 height of  = (pipe diameter)(force of water)<br>
+<img src="images\pipes.png"> <br>
+(image from www.youtube.com G Chang)
+    
+These are the units that each variable is references:<br>
+Volts = ohms x amperage(amps) <br>
+These will be on almost all electrical componets used in your wearable projet.
 
 <h3>Common Voltages</h3>
 Most wall outlets in a home are 120V AC (in North America).<br>
-AC (alternating current)/DC (direct current), thoufh most devices use DC <br>
+Current can be in two forms: AC (alternating current) or DC (direct current), though most devices use DC <br>
 
-<b>Looking at an LED</b><br>
-We will be looking at how to harness electricity and the Gemma to control and LED.<br>
+<h3>Looking at an LED</h3><br>
+LEDs are small diodes that emit light when electricty passes through them. We will be looking at how to harness electricity and the Gemma to control and LED in various ways.<br>
 Many simple LEDs use ~2.2V-3.3V and ~20mA<br>
 
-     *What happens if we plugged the LED into a wall socket?*
+     What happens if we plugged the LED into a wall socket?
 
-Very few (if any) household devices uses 120V. A transformer is the device that changes source V and A fromt the supply to the meet the needs of the device. Some devices have this built in, other have it external to the device.<br>
+Very few (if any) household devices uses 120V. A transformer is the device that changes source V and A from the source of electricty to the meet the needs of the device. Some devices have this built in, other have it external to the device.<br>
 Look at phone power supply- Input/Output. The white cube (apple) is essentially a transformer that changers the 120V to 5V which your phone uses. Below is an the back of a generic charger/transformer.<br>
 <img src="images\powerAdp.png"> <br>
 Notice the input and output values.
 
-    *What happens if we plugged the LED into this transformer?*
+    What happens if we plugged the LED into this transformer?
+<br>It would damage or more likely, destroy, the LED. So how do we power up an LED without damaging it?
 
 <h3>Batteries</h3>
 
 Batteries are another way to supply electricity to circuits or electrical components. Common household batteries are AA and 9V battery. Batteries often list the voltage and capacity (Ah) amp hours. AA batteries are ~1.5V and 9V are 9V.<br>
 
-    <b>*What happens if we plugged the LED into one of these batteries?*</b> <br>
+    What happens if we plugged the LED into one of these batteries?
+    
+The AA likely wouldn't have enough volts to activate the LED and the 9V has to much and would damage it.<br>
 
 Batteries come in many voltages and capacities. Many have been developed with voltage specific to small devices used in wearables.
 
-    *check the battery in your kit. What is the Voltage? What if we connect the LED into this battery?* 
-  <p>
+    check the battery in your kit. What is the Voltage? What if we connect the LED into this battery? 
     
-Connect the leads of the LED to the battery! If it doesn;t work, flip the LED around.
+Connect the leads of the LED to the battery! If it doesn't work, flip the LED around.
   
-We made a circuit!<p>
+We made a circuit! More on that in a bit...<p>
   
-This is not very efficient or useful circuit format to use, especially for perfomance. How do we make this more complex and useful?<p>
+This is not very efficient or useful circuit format to use, especially for perfomance. How do we make this more complex and useful? Stay tuned!<p>
 
 
 <h2>3. Electronics/Hardware Basics</h2>
 
-Microcontollers! This term refers to a growing class of programable device that supplies power in a controlled and programable way to electrical components. As you have seen, not all wearables or circuits need a controller, but they make automation and more complex and exacting control possible.<p>
+Microcontollers! This term refers to a growing class of programable device that supplies power in a controlled and programable way to electrical components. Not all wearables or circuits need a controller, but they make automation and more complex and exacting control possible.<p>
   
-We are using the Arduino Gemma, a small controller thatcan be easily sewn onto clothing or textiles.<p>
-<img src="images\GemmaM0.jpg"> <br>
+We are using the Arduino Gemma M0, a microcontroller, because it can be easily sewn onto clothing or textiles. Pull out your Gemma M0 and have a look at the back. Notice the text that says <b>Vin</b> which designates <b>Voltage in</b>. This information tells you what amount of volts the device can safely operate in.<p>
+<img src="images\gemmaBack.jpg"> <br>
+Notice the Vin on the Gemma here is a wider range that the Gemma M0. The older version had different electrical components that safely accepted more voltage. A 9V battery would damage a Gemma M0.
 
+    which way does the LED go on the battery?
 
-<b>*which way does the LED go on the battery?*</b><p>
-
-What is a Circuit? Basic loop of energy flow from (+) to Ground
-Devices inside the circuit use energy to do work.<br>
-Most electrical components are direction specific (polerized).<br>
-When connecting components, positive to positive, negative to negative.<br>
-
-<img src="images\basicCircuit.png"> <br>
-(photo from https://startingelectronics.org/)
-
-
+Let's go back to the circuit we just made. What is a Circuit? <p>
+  
+Circuits in their most basic form is a loop of energy flowing from (+) to (-) or Ground. Most electrical components are direction specific (polerized). When connecting components, positive to positive, negative to negative. Looking at your battery, one side is positive as indicated by the (+). The other side is (-). The LED also has a positive and negative lead. The longer of the two arms is the positive lead.<br>
 <img src="images\LED.png"> <br>
+(photo from https://startingelectronics.org/)<p>
+
+Now pull out the LED sequins from your kit. Notice these too have a positive and negative side.<p>
+
+So in summary, circuits are loops of energy used to do work. In this case, activating the LED is the work.<br>
+This is a basic diagram of the circuit we just made.<br>
+<img src="images\basicCircuit.png"> <br>
 
 <h3> Anatomy of the Gemma </h3>
+Lets have a look at the top of the Gemma and make sense of all the bits.<br>
+<img src="images\GemmaM0.jpg"> <br>
+The metal conenctor is used to power or data and connects to a computer use USB micro. The black black connector is used to connect a batter with a corresponding clip. Look in your kit for the think black battery case. This is what we will be using to power the Gemma. There is an on/off switch on the board, a reset button in case the code freezes the devices. Then remaining components are the processor and related bits that allow the Gemma to function. One of those functions is regulating power. The Gemma takes between 3 and 6 Volts to power it and supplies a contant 3 volts to any components connected to it.<br>
+The gold plated pads around the outside are how we will connect components like our LED.<br>
+3Vo - 3 volt power supply to connected components<br>
+GND - ground or negative (-), the end of the circuit.<br>
+A# - analog read/write pin<br>
+D# - Digital read/write<p>
 
-3.3V - 3.3 volt power supply<br>
-GND - ground<br>
-A0 - analog read pin<br>
-D1 - Digital read/write<p>
+The A and D pins have the capacity to be both analog or digital, depending on how we program the Gemma.
   
+<h3>Analog and Digital</h3>
+You can think of Analog and Digital as being analogous to Raster and Vector. <br>
+Analog allows for an infinate amount of variation to be sensed - or a gradient. For example, if you connect a knob, the analog pin can tell if its turned all the way or just partially.<br>
+Digital can only be one of two states: 1 or 0. High or low. On or off. This is useful for detecting if a button is pressed or not.<br>
+Some components are analog and some are digital, but no basic component is both. The difference will become more clear when we start to program. <p>
+  
+Pull out the coin batteries and place them into the battery holder and then connect it to the Gemma. One the Gemma, make sure the switch is set to on<br>
+
+Now pull out the LED with lomng leads and connect the (+) lead to the 3Vo pad and the (-) lead to the GND pad. Bend the leads in needed.<br>
+Now try to connect the (+) lead to on the the A/D pads.<br>
+The Gemma shifts electricty to the various pads. Without any programming, the Gemma does not know to send or receive power on any of the pads other than 3Vo which always supplies power to our circuit.<p>
+  
+How do we get these other pads to do work for us? Programming!<p>
+
 <h2>4. Software</h2>  
 To interact with Arduino products, you need to use the Arduino programming environment. It can be downloaded for free from
 <a href="https://www.arduino.cc/en/Main/Software" target="_blank">here<a> <P>
