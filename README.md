@@ -47,6 +47,9 @@ Most wall outlets in a home are 120V AC (in North America).<br>
 Current can be in two forms: AC (alternating current) or DC (direct current), though most devices use DC <br>
 
 <h3>Looking at an LED</h3><br>
+
+<img src="images\LibM.png"> <br>
+
 LEDs are small diodes that emit light when electricty passes through them. We will be looking at how to harness electricity and the Gemma to control and LED in various ways.<br>
 Many simple LEDs use ~2.2V-3.3V and ~20mA<br>
 
