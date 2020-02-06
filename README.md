@@ -87,7 +87,7 @@ This is not very efficient or useful circuit format to use, especially for perfo
 Microcontollers! This term refers to a growing class of programable device that supplies power in a controlled and programable way to electrical components. Not all wearables or circuits need a controller, but they make automation and more complex and exacting control possible.<p>
   
 We are using the Arduino Gemma M0, a microcontroller, because it can be easily sewn onto clothing or textiles. Pull out your Gemma M0 and have a look at the back. Notice the text that says <b>Vin</b> which designates <b>Voltage in</b>. This information tells you what amount of volts the device can safely operate in.<p>
-<img src="images\gemmaBack02.jpg"> <br>
+<img src="images\gemmaBack.jpg"> <br>
 Notice the Vin on the Gemma here is a wider range that the Gemma M0. The older version had different electrical components that safely accepted more voltage. A 9V battery would damage a Gemma M0.
 
     which way does the LED go on the battery?
@@ -209,7 +209,7 @@ Download the code from <a href="Gemma M0 Example Code\03 Serial Read" target="_b
 <h3>Upload patch</h3>
 Once you have connected all the components and pasted in the code (and modified it if you are feeling adventurous), its time to upload to sketch to the Gemma M0. In the top left corner of the Arduino IDE window, there is a checkmark and and arrow. The check mark will run a quick test on the code to see if there is an error. The arrow will upload the code to the Gemma M0. Uploading will automatically run a code test. <p>
 
-<img src="images\blankpatch.png"> <br>
+<img src="images\upload.png"> <br>
 
 If everything is connected correctly, you will get some feedback on the bottom of the window in orange text and the lights on the Gemma will flash. This indicated data is transfering. Once complete, the Gemma should be running your program!<p>
   
