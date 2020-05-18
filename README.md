@@ -94,7 +94,7 @@ Notice the Vin on the Gemma here is a wider range that the Gemma M0. The older v
 
 Let's go back to the circuit we just made. What is a Circuit? <p>
   
-Circuits in their most basic form is a loop of energy flowing from (+) to (-) or Ground. Most electrical components are direction specific (polerized). When connecting components, positive to positive, negative to negative. Looking at your battery, one side is positive as indicated by the (+). The other side is (-). The LED also has a positive and negative lead. The longer of the two arms is the positive lead.<br>
+Circuits in their most basic form are loops of energy flowing from (+) to (-) or Ground. Most electrical components are direction specific (polerized). When connecting components, positive to positive, negative to negative. Looking at your battery, one side is positive as indicated by the (+). The other side is (-). The LED also has a positive and negative lead. The longer of the two arms is the positive lead.<br>
 <img src="images\LED.png"> <br>
 (photo from https://startingelectronics.org/)<p>
 
